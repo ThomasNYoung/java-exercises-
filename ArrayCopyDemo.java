@@ -7,7 +7,7 @@ class ArrayCopyDemo {
 
 		 // System.arraycopy(copyFrom, 2, copyTo, 0, 7);
 		 // shortened syntax using java.util.Arrays
-		 char[] copyTo = java.util.Array.copyOfRange(copyFrom, 2, 9);
+		 char[] copyTo = java.util.Arrays.copyOfRange(copyFrom, 2, 9);
 
 		 System.out.println(new String(copyTo));
 	}
